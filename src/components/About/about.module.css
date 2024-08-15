@@ -1,0 +1,37 @@
+/* About section css starts Nebyu */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.inner_container {
+  max-width: 560px;
+  /* padding: 8vh 1vh; */
+  border: none 0.5px;
+}
+.title {
+  color: rgb(254, 132, 2);
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+.sub_title {
+  padding-top: 1rem;
+  font-size: 37px;
+  font-weight: 700;
+  color: #65486b;
+}
+.paragraph {
+  padding: 1rem 0;
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+.explainbtn button {
+background-color: rgb(254, 132, 2);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+/* About section css Ends */

@@ -1,0 +1,58 @@
+
+/* .auth {
+    background-color: white;
+    border-radius: 5px;
+    height: auto;
+    min-height: 450px;
+    padding: 15px 30px 25px;
+} */
+ /* .auth-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1300px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.auth-page-container .auth-form, 
+.auth-page-container .about-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.auth-form {
+  max-width: 400px;
+  width: 100%;
+}
+.auth-page-container .auth-form {
+  max-width: 400px;
+  width: 100%;
+  margin-left: 20px; 
+}
+.about-section {
+  max-width: 600px;
+  width: 100%;
+  margin-left: 20px; 
+} */
+
+/* @media (max-width: 768px) {
+  .auth-page-container {
+    flex-direction: column;
+  }
+
+  .auth-page-container .auth-form, 
+  .auth-page-container .about-section {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.auth-page-container .about-section {
+    max-width: 100%;
+    margin: 0;
+    margin-top: 20px;
+  } */

@@ -1,0 +1,204 @@
+
+.sign_up_container {
+  
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  margin: 0 auto;
+  height: auto;
+  justify-content: center;
+  padding: 30px;
+  min-height: 450px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* .row {
+    margin: 0 auto;
+} */
+.upper_heading {
+  margin-bottom: 30px;
+}
+.upper_signin_button {
+  font-size: 18px;
+}
+.upper_signin_button a {
+  font-size: 18px;
+  color: #da7000;
+}
+.join_login {
+  font-weight: 700;
+  margin-top: 0px;
+  font-size: 18px;
+}
+.signin_button {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.signin_button a {
+  color: #da7000;
+  
+  font-size: 14px;
+}
+.sign_up_form {
+  margin-right: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.error_message{
+  text-align: center;
+    color: red;
+    font-family: monospace;
+}
+
+.item.error input {
+  border: 1px solid red;
+  background-color: rgb(240, 224, 224);
+}
+
+.item_password.error input {
+  border: 1px solid red;
+  background-color: rgb(240, 224, 224);
+}
+.column_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.sign_up_form input {
+  width: 100%;
+  padding: 8px;
+  margin-right: 0px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.sign_up_form button:hover {
+  background-color: #0056b3;
+}
+.item_password {
+  position: relative;
+  /* padding-right: 22px; */
+}
+.password_toggle {
+ position: absolute;
+ padding-bottom: 10px;
+  top: 50%;
+  right: 40px; /* Adjust this value as needed */
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+}
+.text_muted {
+  color: #6c757d;
+}
+.join_button {
+  background-color: #516cf0;
+  border-color: #3a59ef;
+  color: white;
+  padding: 20px 20px;
+  margin-right: 1px;
+  cursor: pointer;
+  border: none;
+  font-size: 1em;
+  border-radius: 4px !important;
+}
+.lower_account_button a {
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+  color: #da7000;
+}
+.sign_up_form div input {
+  border-bottom: 2px solid #ccc; /* Default bottom 
+  outline: none; /* Remove default focus outline */
+}
+
+.sign_up_form div input:focus {
+  border-bottom: 2px solid orange; /* Orange bottom border color on focus */
+}
+
+ .sign_up_form .join_button:hover{
+  background-color: #FE8402;
+  }
+
+@media (max-width: 768px) {
+  .sign_up_container {
+    padding: 20px; 
+    max-width: 740px;/* Ensure padding is adequate for smaller screens */
+  }
+
+  .upper_heading {
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+  }
+
+  .upper_signin_button, .upper_signin_button a, .join_login {
+    font-size: 18px; /* Adjusted font size */
+  }
+ 
+  .signin_button, .signin_button a {
+    font-size: 14px; /* Adjusted font size */
+  }
+
+  .sign_up_form input {
+    font-size: 12px;
+    padding: 20px; /* Adjusted font size */
+  }
+
+  .join_button {
+    font-size: 1em; /* Adjusted font size */
+    padding: 10px 20px; /* Adjusted padding */
+  }
+
+  .lower_account_button a {
+    font-size: 18px; /* Adjusted font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .sign_up_container {
+    padding: 10px; 
+    width: 479px;/* Further reduced padding */
+    box-sizing: border-box;
+  }
+
+  .upper_heading {
+    margin-bottom: 15px; /* Further adjusted margin */
+  }
+
+  .upper_signin_button, .upper_signin_button a, .join_login {
+    font-size: 14px; /* Further reduced font size */
+  }
+
+  .signin_button, .signin_button a {
+    font-size: 8px; /* Further reduced font size */
+  }
+
+  .sign_up_form input {
+    font-size: 8px;
+   
+  }
+   .column_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  .join_button {
+    font-size: 0.9em; 
+    padding: 8px 15px;
+  }
+  
+
+  .lower_account_button a {
+    font-size: 16px; /* Further reduced font size */
+  }
+}

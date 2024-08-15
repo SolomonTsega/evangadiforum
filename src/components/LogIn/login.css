@@ -1,0 +1,107 @@
+/* General styling for the body */
+
+/* Styling for the login container */
+.login-container {
+  width: 100%;
+  max-width: 460px; /* Max width for the container */
+  padding: 40px; /* Increase padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  transition: all 0.5s ease;
+  height: auto;
+  min-height: 450px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto; /* Ensure the container is centered */
+}
+
+/* Styling for the heading inside the login container */
+.login-container h2 {
+  font-size: 28px; /* Increase font size */
+  margin-bottom: 20px;
+  font-weight: 500; /* Decrease the boldness */
+}
+
+/* Styling for paragraph text inside the login container */
+.login-container p {
+  font-size: 16px; /* Increase font size */
+  color: #666;
+}
+
+/* Styling for links within paragraphs */
+.login-container p a {
+  color: #ff8500;
+  text-decoration: none;
+}
+
+/* Styling for input fields */
+.input-field {
+  width: 100%;
+  margin: 15px 0;
+  padding: 15px 20px; /* Equal padding left and right */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Increase font size */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Remove the rectangle around the password field */
+.password-field {
+  position: relative;
+  width: 100%;
+  margin: 15px 0;
+  padding: 0; /* Remove padding */
+}
+
+/* Styling for the input inside the password field */
+.password-field input {
+  width: 100%;
+  padding: 15px 20px; /* Equal padding left and right */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px; /* Increase font size */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Styling for icons within the password field */
+.password-field span {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.newClass {
+  position: relative;
+}
+
+/* Styling for the "forgot password" link */
+.forgot-password {
+  display: block;
+  margin: 15px 0;
+  color: #ff8500;
+  text-decoration: none;
+  font-size: 16px; /* Increase font size */
+  text-align: right; /* Align to the right */
+}
+
+.login_button:hover{
+ background-color: #FE8402;
+}
+
+/* Styling for the login button */
+.login_button {
+  width: 100%;
+  margin: 30px 0 0;
+  padding: 15px 20px; /* Equal padding left and right */
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px; /* Increase font size */
+  cursor: pointer;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
